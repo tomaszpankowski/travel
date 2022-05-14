@@ -1,13 +1,36 @@
 $prefix: "../../../assets/";
-$bg__error-img: $prefix+"img/error.jpg";
+$bg__about-img: 
+    $prefix+"img/about/about-s1.jpg",
+    $prefix+"img/about/about-s2.jpg",
+    $prefix+"img/about/about-s3.jpg",
+    $prefix+"img/about/about-s4.jpg";
 $bg__comingsoon-img: $prefix+"img/coming.jpg";
+$bg__contact-img: 
+    $prefix+"img/contact/contact-s1.jpg",
+    $prefix+"img/contact/contact-s2.jpg",
+    $prefix+"img/contact/contact-s3.jpg";
+$bg__destinations-img: $prefix+"img/destinations/destinations-s1.jpg";
+$bg__error-img: $prefix+"img/error.jpg";
+$bg__index-img: $prefix+"img/index/index-s1.jpg";
 $bg__privacy-img: $prefix+"img/privacy.jpg";
+$bg__user-img: $prefix+"img/user/user-s1.jpg";
 $bg__init:
-    "error",
+    "about",
     "comingsoon",
-    "privacy";
+    "contact",
+    "destinations",
+    "error",
+    "index",
+    "privacy",
+    "user";
 $classes_init:
-    $bg__error-img,
+    $bg__about-img,
     $bg__comingsoon-img,
-    $bg__privacy-img;
+    $bg__contact-img,
+    $bg__destinations-img,
+    $bg__error-img,
+    $bg__index-img,
+    $bg__privacy-img,
+    $bg__user-img;
 $footer-height: 41px;
+$text__shadow: 1px 1px 3px #333;

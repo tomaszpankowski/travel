@@ -2,12 +2,13 @@
     <div class="card-header bg-light">
         <h5 class="card-title text-secondary float-start">Filter</h5>   
         <button class="btn btn-outline-secondary btn-sm float-end rounded" 
+            (click)="showHideFilters()"
             data-bs-toggle="collapse" 
             data-bs-target="#filters">
             +
         </button>                         
     </div>
-    <div class="card-body collapse show" id="filters">
+    <div class="card-body collapse show" id="filters" *ngIf="showFilters">
         <form class="small">
             <fieldset class="mb-3">
                 <legend>
